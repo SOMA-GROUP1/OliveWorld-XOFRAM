@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:url(/images/bg-65e1b575664af170534291.png);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+header{
+    width: 95%;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+header > h1 {
+    padding-left: 5%;
+}
+hr{
+    width: 50px;
+    border: 5px solid gold;
+    margin: 0 auto;
+}
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#ul1{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ul1 > li{
+}
+#ul1 > li > a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 8px;
+    transition: .8s;
+}
+#ul1 > li > a:hover ,#a1{
+    background: #a3b104;
+    border-radius: 8px;
+    padding: 10px 10px ;
+}
+
+#ul2{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    
+}
+#ul2 > li > a {
+    color: white;
+}
+#ul2 > li > a > img {
+    color: white;
+}
+.s1{
+    max-width: 70%;
+    border-radius: 15px;
+    margin:  40px auto;
+    padding: 20px;
+    background: #f3f3f321;
+    display: flex;
+    justify-content: space-around;
+}
+.pro1{
+    width: 45%;
+    display: flex;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 5px;
+    background: #f3f3f34a;
+}
+.img{
+    width: 40%;
+    border: 2px solid gold ;
+    border-radius: 8px;
+    padding:5px ;
+    border-right: none;
+}
+.des > h1{
+    padding: 12px;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.des > h1 > span{
+    color:gold;
+    font-size: 40px;
+}
+#btnD{
+    padding: 10px 45px;
+    border-radius: 12px;
+    border: 1px solid gold;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+}
+#btnD:hover{
+    background: #f3f3f32d;
+}
+
+
+/* ////////////// */
+.products {
+    max-width: 70%;
+    border-radius: 15px;
+    margin:  40px auto;
+    padding: 20px;
+    background: #f3f3f321;
+
+}
+.products > #titleS {
+    font-size: 30px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: left;
+    padding: 10px 40px;
+}
+.product-header > h1{
+    font-size: 50px ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 2px;
+    background: #f3f3f321;
+}
+
+.section-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    width: 180px;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 5px;
+    background: #f3f3f34a;
+}
+.card > img {
+    width:70px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    
+}
+.content > h2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons > button {
+    margin-top: 8px;
+    padding: 8px 15px;
+    border-radius: 12px;
+    border: 1px solid gold;
+    background: transparent;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .8s;
+}
+.buttons > button:hover{
+    background: rgb(87, 109, 33);
+    transform: scale(1.1);
+
+}
+footer{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(87, 109, 33);
+}
+footer > .links{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+footer > .links > img {
+    transition: .8s;
+}
+footer > .links > img:hover {
+    transform: scale(1.1);
+}
+footer > h2 {
+    font-size: 15px;
+    color: white;
+}
