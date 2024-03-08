@@ -1,20 +1,21 @@
-
 /*        header               */
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     background: url(./images/bg-65e1b575664af170534291.png);
 }
-header{
+
+header {
     width: 95%;
     padding: 20px 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +26,8 @@ header{
     text-align: center;
     align-items: center;
 }
-header > h1 {
+
+header>h1 {
     padding-left: 5%;
 }
 
@@ -33,49 +35,56 @@ header > h1 {
 
 
 
-.title-home{
+.title-home {
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     padding: 50px 0;
     padding-top: 70px;
 }
-.content{
+
+.content {
     width: 60%;
     text-align: left;
     padding: 70px 20px 20px 70px;
 }
-.content > h1{
+
+.content>h1 {
     font-size: 40px;
     color: #a3b104;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
-.content > p {
+
+.content>p {
     font-size: 18px;
-    color:#a3b104;
+    color: #a3b104;
     width: 400px;
     padding: 10px 0;
 }
-.content > h1 > span {
+
+.content>h1>span {
     color: white;
 }
-.content > button{
-    padding: 13px 25px ;
+
+.content>button {
+    padding: 13px 25px;
     font-size: 15px;
     background: #a3b104;
     border: 1px solid #a3b104;
     border-radius: 6px;
-    color:white;
+    color: white;
     margin-top: 30px;
     transition: .8s;
     cursor: pointer;
 }
-.content > button:hover{
+
+.content>button:hover {
     background: transparent;
     border: 1px solid #a3b104;
 }
-.slider > button{
+
+.slider>button {
     padding: 20px;
     background: white;
     border-radius: 100%;
@@ -83,13 +92,16 @@ header > h1 {
     cursor: pointer;
     transition: .8s;
 }
-.slider > button:hover{
+
+.slider>button:hover {
     background: #a3b104;
 }
-.slider{
+
+.slider {
     padding-top: 50px;
 }
-.img > img {
+
+.img>img {
     width: 75%;
 }
 
@@ -102,162 +114,185 @@ header > h1 {
 
 .SerTrans_heads {
     margin-top: 20px;
-     flex-direction: column;
-     justify-content: flex-start;
-     align-items: center;
-     gap: 30px;
-     display: flex;
-     margin:30px 0px;
-     }
-     
-     .A1, .A2, .A3 {
-     color: white;
-     justify-content: center;
-     font-size: 30px;
-     font-family: 'Inter';
-     font-weight: 800;
-     word-wrap: break-word;
-     }
-     
-     .P1, .P2, .P3 {
-       justify-content: center;
-     color:white;
-     font-size: 18px;
-     font-family: 'Inter';
-     font-weight: 500;
-     word-wrap: break-word;
-     
-     }
-     
-     
-     .T1, .T2, .T3 {
-    
-    
-     background: #f3f3f34a;
-     margin:50px ;
-     font-family:'Inter';
-     font-size: 18px;
-     /* border: 1px solid gold; */
-     border-radius: 12px;
-     padding: 33px;
-     }
-     
-     .img_transformation {
-     width: 318px;
-     height: 300px;
-     }
-     /*Trail*/
-     
-     
-     .Sentier {
-     width: 100%;
-     flex-direction: column;
-     align-items: center;
-     display: flex;
-     justify-content: center;
-     gap: 10px;
-     padding: 10px;
-     }
-     
-     
-     
-     
-     .Sentir_heads {
-     flex-direction: column;
-     text-align: center;
-     align-items: center;
-     gap: 33px;
-     display: flex;
-     margin-bottom: 20px;
-     }
-     
-     
-     .text_image1 {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       gap: 74px;
-       display: inline-flex;
-       background:  #f3f3f321;
-       color:  white;
-       padding: 20px 40px;
-       border-radius: 12px;
-       margin-left: 40px;
-       margin-right: 35px;
-       }
-       
-     
-     .text_image2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 70px;
-     background:  #f3f3f321;
-     color:  white;
-     padding: 20px 40px;
-     border-radius: 12px;
-     margin-left: 40px;
-     margin-right: 25px;
-   
-     }
-     .text_em  {
-     
-       justify-content:center;
-       align-items: center;
-       gap: 74px;
-       display: inline-flex;
-       background:  #f3f3f321;
-       display: flex;
-       color:  white;
-       padding: 0px 40px;
-       border-radius: 12px;
-       margin-bottom: 30px;
-       }
-     
-     .img_sentir {
-     width: 354px;
-     height: 310px;
-     padding-top: 37px;
-     }
-     .Emballage1 {
-     width: 367px;
-     height: 220px;
-     }
-     
-     
-     
-     .Emballage {
-     height: 500px;
-     padding-left: 60px;
-     padding-right: 30px;
-     flex-direction: column;
-     justify-content: flex-start;
-     align-items: center;
-     gap: 14px;
-     display: flex;
-     margin-bottom: 40px;
-     
-     }
-     
-     .headtext_emballage {
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 32px;
-     display: flex;
-     margin:20px 0px;
-     }
-     
-   
-     .P3 {
-     color: white;
-     font-size: 18px;
-     font-family: 'Inter';
-     font-weight: 500;
-     word-wrap: break-word;
-     }
+    margin: 30px 0px;
+}
+
+.A1,
+.A2,
+.A3 {
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.P1,
+.P2,
+.P3 {
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+
+}
+
+
+.T1,
+.T2,
+.T3 {
+
+
+    background: #f3f3f34a;
+    margin: 50px;
+    font-family: 'Inter';
+    font-size: 18px;
+    /* border: 1px solid gold; */
+    border-radius: 12px;
+    padding: 33px;
+}
+
+.img_transformation {
+    width: 318px;
+    height: 300px;
+}
+
+/*Trail*/
+
+
+.Sentier {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+
+.Sentir_heads {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 33px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.text_image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    display: inline-flex;
+    background: #f3f3f321;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 35px;
+}
+
+
+.text_image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background: #f3f3f321;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 25px;
+
+}
+
+.text_em {
+
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    display: inline-flex;
+    background: #f3f3f321;
+    display: flex;
+    color: white;
+    padding: 0px 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.img_sentir {
+    width: 354px;
+    height: 310px;
+    padding-top: 37px;
+}
+
+.Emballage1 {
+    width: 367px;
+    height: 220px;
+}
+
+
+
+.Emballage {
+    height: 500px;
+    padding-left: 60px;
+    padding-right: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+.headtext_emballage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    display: flex;
+    margin: 20px 0px;
+}
+
+
+.P3 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+
+/*    CONTACTS US    */
+
+#s1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 40px 180px 40px 180px;
+
+
+}
+
+
 /* this part for footer */
-footer{
+footer {
     width: 100%;
     padding: 20px 50px;
     display: flex;
@@ -266,19 +301,23 @@ footer{
     justify-content: space-between;
     border-top: 1px solid rgb(87, 109, 33);
 }
-footer > .links{
+
+footer>.links {
     width: 250px;
     display: flex;
     justify-content: space-evenly;
     cursor: pointer;
 }
-footer > .links > img {
+
+footer>.links>img {
     transition: .8s;
 }
-footer > .links > img:hover {
+
+footer>.links>img:hover {
     transform: scale(1.1);
 }
-footer > h2 {
+
+footer>h2 {
     font-size: 15px;
     color: white;
 }
