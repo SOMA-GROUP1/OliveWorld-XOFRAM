@@ -121,6 +121,54 @@ header > h1 {
     
 }
 
+.CONTACTS{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+    font: 17px;
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.CONTACTS>h2{
+    color: white ;
+    padding: 10px 0px;
+}
+
+.INFOS > .adress{
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    
+}
+.INFOS> .infos_background{
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.INFOS> .opening_background{
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.INFOS>h2{
+    color: white ;
+    padding: 10px 0px;
+}
+
+
+
 
 /* this part for footer */
 footer{
