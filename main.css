@@ -94,6 +94,18 @@ header > h1 {
 }
 
 
+/*    CONTACTS US    */
+
+#s1 {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding: 40px 180px 40px 180px;
+    
+
+}
+
+
 /* this part for footer */
 footer{
     width: 100%;
