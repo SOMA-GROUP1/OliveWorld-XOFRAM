@@ -289,6 +289,192 @@ header>h1 {
 
 
 }
+.INFOS >div{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 1px 10px 20px 10px;
+}
+
+.INFOS >div>h2{
+    color: white;
+    padding:10px 0px;
+    font-family: 'Segoe UI';
+}
+.INFOS >div>p{
+    padding:10px 0px 0px 0px;
+    
+}
+
+.CONTACTS{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+    font: 17px;
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.CONTACTS>h2{
+    color: white ;
+    padding: 10px 0px;
+}
+
+.INFOS > .adress{
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    
+}
+.INFOS> .infos_background{
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.INFOS> .opening_background{
+    background-color:#f3f3f325;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+.INFOS>h2{
+    color: white ;
+    padding: 10px 0px;
+}
+/* INPUT : */
+
+
+.input_1{
+    display: flex;
+    gap: 23px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.input_2{
+    display: flex;
+    gap: 23px;
+    padding: 1px 0px 5px 0px;
+}
+
+.input_3{
+    display: flex;
+    flex-direction:column;
+    gap: 23px;
+    padding: 10px 0px 0px 0px;
+}
+.input_3 .input-button{
+    text-align: right;
+}
+
+.input-firstName > #First_Name{
+    
+    margin-top: 9px;  
+    width: 150px;
+    height: 40px;  
+}
+.input-firstName > #First_Name:focus{
+    outline:3px solid #ffd700;
+    border: none;
+}
+
+
+.input-lastName > #Last_Name{
+    margin-top: 9px ;  
+    width: 150px;
+    height: 40px;  
+}
+.input-lastName> #Last_Name:focus{
+    outline:3px solid #ffd700;
+    border: none;
+}
+
+
+.input-email > #email{
+    margin-top: 9px ;  
+    width: 150px;
+    height: 40px;  
+}
+.input-email> #email:focus{
+    outline:3px solid #ffd700;
+    border: none;
+}
+
+
+.input-phone > #phone{
+    margin-top: 9px ;  
+    width: 150px;
+    height: 40px;  
+}
+.input-phone> #phone:focus{
+    outline:3px solid #ffd700;
+    border: none;
+}
+
+
+.input-message > #message{
+    margin-top: 9px ;  
+    width: 320px;
+    height: 90px;
+}
+.input-message > #message:focus{
+    outline:3px solid #ffd700;
+    border: none;
+}
+
+/* hover d'inputs : */
+
+.input-firstName> #First_Name:hover{
+    background-color: white;
+    outline:4px solid #ffd700;
+    border: none;
+}
+.input-lastName > #Last_Name:hover{
+    background-color: white;
+    outline:4px solid #ffd700;
+    border: none;
+}
+.input-email > #email:hover{
+    background-color: white;
+    outline:4px solid #ffd700;
+    border: none;
+}
+.input-phone > #phone:hover{
+    background-color: white;
+    outline:4px solid #ffd700;
+    border: none;
+}
+.input-message > #message:hover{
+    background-color: white;
+    outline:4px solid #ffd700;
+    border: none;
+}
+
+
+/* BUTTON : */
+.input-button > #button_send{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+.input-button> #button_send:hover{
+    transform: scale(1.1); 
+
+}
+
+
 
 
 /* this part for footer */
